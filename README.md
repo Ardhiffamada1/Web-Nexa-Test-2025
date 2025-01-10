@@ -24,7 +24,7 @@ Ikuti langkah-langkah di bawah ini untuk mengkloning dan menjalankan proyek ini 
 
 1. Clone repository ini:
    ```bash
-   git clone[https://github.com/Ardhiffamada1/Web-Nexa-Test-2025/
+   git clone https://github.com/Ardhiffamada1/Web-Nexa-Test-2025/
    cd Web-Nexa-Test-2025
    ```
 
