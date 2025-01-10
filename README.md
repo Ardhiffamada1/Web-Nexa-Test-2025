@@ -37,7 +37,7 @@ Ikuti langkah-langkah di bawah ini untuk mengkloning dan menjalankan proyek ini 
 3. Atur akses database env sesuai env pc anda `.env`
 
    ```bash
-   DATABASE_URL="postgresql://username:password@localhost:5432/ceritakita?schema=public"
+   DATABASE_URL="postgresql://username:password@localhost:5432/ceritakita"
    ```
 
 4. Jalankan migrasi untuk membuat tabel di database:
