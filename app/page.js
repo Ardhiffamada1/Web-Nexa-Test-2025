@@ -3,6 +3,7 @@
 import Footer from "@/app/components/Footer";
 import Navbar from "./components/Navbar";
 import BestSelling from "./components/BestSelling";
+import BlogCards from "./components/BlogCards";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
           </div>
         </div>
         <BestSelling />
+        <BlogCards />
       </section>
       <Footer />
     </>

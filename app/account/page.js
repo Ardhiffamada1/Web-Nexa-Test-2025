@@ -82,7 +82,8 @@ export default function LoginRegisterLayout() {
 
   return (
     <>
-      <div className="flex justify-center items-center h-screen bg-gray-100">
+      <Navbar />
+      <div className="flex justify-center items-center h-screen bg-gray-50">
         <div className="flex bg-white w-full max-w-4xl rounded-lg shadow-lg">
           {/* Login Form */}
           <div className={`flex-1 p-8 ${isLogin ? "block" : "hidden"}`}>

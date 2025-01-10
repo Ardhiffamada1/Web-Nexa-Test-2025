@@ -1,10 +1,8 @@
-import prisma from "@/lib/db"; // Import prisma client untuk akses ke database
+import prisma from "@/lib/db";
 
-// Handler untuk menangani GET dan POST
 export default async function handler(req, res) {
   if (req.method === "GET") {
     try {
-      // Mengambil semua data user
       const users = await prisma.user.findMany();
       res.status(200).json(users);
     } catch (error) {
@@ -23,7 +21,6 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: "Email already exists" });
       }
 
-      // Membuat user baru
       const newUser = await prisma.user.create({
         data: {
           name,
