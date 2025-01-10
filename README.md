@@ -25,27 +25,35 @@ Sebelum memulai, pastikan Anda memiliki perangkat lunak berikut yang terinstal d
 
 Ikuti langkah-langkah di bawah ini untuk mengkloning dan menjalankan proyek ini secara lokal:
 
-### 1. Mengkloning Repositori
+## Setup Project
 
-Pertama, kloning repositori ini ke dalam mesin lokal Anda:
+1. Clone repository ini:
+   ```bash
+   git clone[https://github.com/Ardhiffamada1/Web-Nexa-Test-2025/
+   cd Web-Nexa-Test-2025
+   ```
 
-```bash
-git clone https://github.com/Ardhiffamada1/Web-Nexa-Test-2025
-cd Web-Nexa-Test-2025
+2. Install dependensi:
+   ```bash
+   npm install
+   ```
 
-## Getting Started
+3. Atur variabel lingkungan di `.env` (gunakan file `.env.example` sebagai template).
 
-First, run the development server:
+4. Jalankan PostgreSQL di mesin Anda dan buat database yang diperlukan.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+5. Jalankan migrasi untuk membuat tabel di database:
+   ```bash
+   npm run migrate
+   ```
+
+6. Jalankan aplikasi Next.js:
+   ```bash
+   npm run dev
+   ```
+
+7. Akses aplikasi di browser melalui `http://localhost:3000`.
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
