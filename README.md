@@ -38,7 +38,7 @@ Ikuti langkah-langkah di bawah ini untuk mengkloning dan menjalankan proyek ini 
    npm install
    ```
 
-3. Atur variabel lingkungan di `.env` (gunakan file `.env.example` sebagai template).
+3. Atur variabel lingkungan di `.env`
 
 4. Jalankan PostgreSQL di mesin Anda dan buat database yang diperlukan.
 
