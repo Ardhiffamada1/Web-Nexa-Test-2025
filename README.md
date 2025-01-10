@@ -34,24 +34,29 @@ Ikuti langkah-langkah di bawah ini untuk mengkloning dan menjalankan proyek ini 
    npm install
    ```
 
-3. Atur variabel lingkungan di `.env`
+3. Atur akses database env sesuai env pc anda `.env`
 
    ```bash
-   DATABASE_URL="postgresql://username:password@localhost:5432/ceritakita?schema=public"
+   DATABASE_URL="postgresql://username:password@localhost:5432/ceritakita"
    ```
 
-4. Jalankan PostgreSQL di mesin Anda dan buat database yang diperlukan.
-
-5. Jalankan migrasi untuk membuat tabel di database:
+4. Jalankan migrasi untuk membuat tabel di database:
 
    ```bash
-   npm run migrate
+   npx prisma migrate dev
    ```
 
-6. Jalankan aplikasi Next.js:
+5. Jalankan aplikasi Next.js:
 
    ```bash
    npm run dev
    ```
 
-7. Akses aplikasi di browser melalui `http://localhost:3000`.
+6. Akses aplikasi di browser melalui `http://localhost:3000`.
+
+
+Api Endpoint
+
+Products : `http://localhost:3000/api/products`.
+Users : `http://localhost:3000/api/users`.
+   
