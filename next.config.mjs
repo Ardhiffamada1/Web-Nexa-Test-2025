@@ -21,6 +21,10 @@ const nextConfig = {
         source: "/api/users",
         destination: "/api/usersHandler",
       },
+      {
+        source: "/api/eatery",
+        destination: "/api/eateryHandler",
+      },
     ];
   },
 

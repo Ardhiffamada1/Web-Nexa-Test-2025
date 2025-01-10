@@ -39,22 +39,16 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/shop"
+              href="/Menu"
               className="text-gray-800 hover:text-black hover:underline"
             >
-              Shop
+              Menu
             </Link>
             <Link
               href="/about"
               className="text-gray-800 hover:text-black hover:underline"
             >
               About
-            </Link>
-            <Link
-              href="/contact"
-              className="text-gray-800 hover:text-black hover:underline"
-            >
-              Contact
             </Link>
           </div>
 
@@ -82,22 +76,16 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/shop"
+              href="/Menu"
               className="text-gray-800 hover:text-black hover:underline block"
             >
-              Shop
+              Menu
             </Link>
             <Link
               href="/about"
               className="text-gray-800 hover:text-black hover:underline block"
             >
               About
-            </Link>
-            <Link
-              href="/contact"
-              className="text-gray-800 hover:text-black hover:underline block"
-            >
-              Contact
             </Link>
           </div>
 

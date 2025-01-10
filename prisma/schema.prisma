@@ -32,3 +32,10 @@ model Product {
   description String  
 }
 
+model Eatery {
+  id          Int     @id @default(autoincrement())
+  name        String
+  img         String
+  price       Float
+  description String  
+}

@@ -27,7 +27,7 @@ export default function Home() {
 
   if (loading) {
     return (
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center text-gray-900">
             Loading products...
@@ -39,7 +39,7 @@ export default function Home() {
 
   if (error) {
     return (
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center text-red-500">
             {error}
@@ -50,7 +50,7 @@ export default function Home() {
   }
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-center text-gray-900">
           Our Best Selling Coffees

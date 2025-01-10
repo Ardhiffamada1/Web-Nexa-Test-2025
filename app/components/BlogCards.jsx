@@ -1,6 +1,6 @@
 export default function BlogCards() {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-center text-gray-900 mb-4">
           Our Places
@@ -13,7 +13,7 @@ export default function BlogCards() {
           />
 
           <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-            Lorem, ipsum dolor.
+            Alamat kami.
           </h3>
 
           <p className="mt-2 text-gray-700">
