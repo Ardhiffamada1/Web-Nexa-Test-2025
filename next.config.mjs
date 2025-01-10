@@ -11,7 +11,6 @@ const nextConfig = {
     ];
   },
 
-  // Mengatur rewrites
   async rewrites() {
     return [
       {
@@ -23,6 +22,10 @@ const nextConfig = {
         destination: "/api/usersHandler",
       },
     ];
+  },
+
+  env: {
+    CUSTOM_ENV_VARIABLE: process.env.CUSTOM_ENV_VARIABLE,
   },
 };
 

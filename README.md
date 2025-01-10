@@ -1,4 +1,3 @@
-
 # Web Test Nexa 2025
 
 ## Teknologi yang Digunakan
@@ -23,29 +22,36 @@ Ikuti langkah-langkah di bawah ini untuk mengkloning dan menjalankan proyek ini 
 ## Setup Project
 
 1. Clone repository ini:
+
    ```bash
    git clone https://github.com/Ardhiffamada1/Web-Nexa-Test-2025/
    cd Web-Nexa-Test-2025
    ```
 
 2. Install dependensi:
+
    ```bash
    npm install
    ```
 
 3. Atur variabel lingkungan di `.env`
 
+   ```bash
+   DATABASE_URL="postgresql://username:password@localhost:5432/ceritakita?schema=public"
+   ```
+
 4. Jalankan PostgreSQL di mesin Anda dan buat database yang diperlukan.
 
 5. Jalankan migrasi untuk membuat tabel di database:
+
    ```bash
    npm run migrate
    ```
 
 6. Jalankan aplikasi Next.js:
+
    ```bash
    npm run dev
    ```
 
 7. Akses aplikasi di browser melalui `http://localhost:3000`.
-
