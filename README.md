@@ -1,11 +1,6 @@
 
 # Web Test Nexa 2025
 
-Detail Tugas
-1. Gunakan template yang diberikan untuk membangun aplikasi website
-2. Pilih framework laravel atau React JS dalam membuat aplikasinya
-3. Gunakan Database Postgresql sebagai pengolah databasenya
-
 ## Teknologi yang Digunakan
 
 - **Next.js**: Framework React untuk aplikasi web yang cepat dan efisien.
